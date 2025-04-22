@@ -1,14 +1,15 @@
 #!/bin/bash
-THRESHOLD-80
 while true; do
-RAM_TOTAL=$(awk '/MemTotal/ {print $2}' /proc/meminfo)
-RAM_AVAILABLE=$(awk '/MemAvailable/ {print $2}' /proc/meminfo)
-RAM_USED=$((RAM_TOTAL - RAM_AVAILABLE))
-RAM_PERCENTAGE=$((RAM_USED * 100 / RAM_TOTAL))
-if [ "$RAM_PERCENTAGE" -gt "$THRESHOLD" ]; then
-echo "ALERT: High RAM usage detected!"
-echo "Current RAM usage: $RAM_PERCENTAGE%"
-echo "Please check for resource-intensive processes."
+ram_usage=$(free | awk '/Mem:/ {printf("%.0f", ($3/$2)*100)}')
+if [[ "$ram_usage" =~ ^[0-9]+$ ]]; then
+echo "RAM Usage: $ram_usage%"
+if [ "$ram_usage" -gt 80 ]; then
+echo "High RAM usage detected: $ram_usage%"
+else
+echo "RAM usage is normal: $ram_usage%"
 fi
-sleep 5
+else
+echo "Error: Unable to determine RAM usage."
+fi
+sleep 10
 done
