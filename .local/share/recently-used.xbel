@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/Tatney/university" added="2025-04-18T23:27:05.733471Z" modified="2025-04-18T23:27:05.733478Z" visited="2025-04-18T23:27:05.733473Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2025-04-18T23:27:05.733474Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Tatney/university/StudentRecords" added="2025-04-18T23:27:34.017752Z" modified="2025-04-18T23:27:34.017759Z" visited="2025-04-18T23:27:34.017753Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2025-04-18T23:27:34.017756Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Tatney/var" added="2025-04-18T23:27:51.207996Z" modified="2025-04-18T23:27:51.208006Z" visited="2025-04-18T23:27:51.207997Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2025-04-18T23:27:51.208001Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Tatney/var/backups" added="2025-04-18T23:28:10.434120Z" modified="2025-04-18T23:28:10.434124Z" visited="2025-04-18T23:28:10.434121Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2025-04-18T23:28:10.434122Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Tatney/var/backups/student_records" added="2025-04-18T23:28:26.976460Z" modified="2025-04-18T23:28:26.976471Z" visited="2025-04-18T23:28:26.976461Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2025-04-18T23:28:26.976466Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Tatney/backup_script.sh" added="2025-04-20T17:33:47.881890Z" modified="2025-04-22T20:29:48.074031Z" visited="2025-04-20T17:33:47.881891Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2025-04-22T20:29:48.074020Z" count="14"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Tatney/ram_monitoring.sh" added="2025-04-20T19:13:59.926906Z" modified="2025-04-22T15:46:43.966904Z" visited="2025-04-20T19:13:59.926907Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2025-04-22T15:46:43.966892Z" count="14"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Tatney/demo_all.sh" added="2025-04-22T12:17:09.095317Z" modified="2025-04-22T19:34:15.648670Z" visited="2025-04-22T12:17:09.095318Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2025-04-22T19:34:15.648657Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Tatney/ram_monitoring.sh.save.1" added="2025-04-22T15:27:44.985341Z" modified="2025-04-22T15:38:36.028765Z" visited="2025-04-22T15:27:44.985343Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-zerosize"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2025-04-22T15:38:36.028749Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Tatney/ram_monitoring.sh.save.2" added="2025-04-22T15:38:43.871705Z" modified="2025-04-22T15:48:04.977931Z" visited="2025-04-22T15:38:43.871706Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-zerosize"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2025-04-22T15:48:04.977922Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Tatney/README.md" added="2025-04-22T15:39:18.154945Z" modified="2025-04-22T20:23:34.458590Z" visited="2025-04-22T15:39:18.154946Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/markdown"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2025-04-22T20:23:34.458575Z" count="9"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Tatney/ram_monitoring.sh.save" added="2025-04-22T15:39:30.030952Z" modified="2025-04-22T15:39:30.030961Z" visited="2025-04-22T15:39:30.030953Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2025-04-22T15:39:30.030956Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Tatney/logout_script.sh" added="2025-04-22T19:27:31.412804Z" modified="2025-04-22T19:30:17.076289Z" visited="2025-04-22T19:27:31.412805Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2025-04-22T19:30:17.076280Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/Tatney/backup_script.sh.save" added="2025-04-22T19:36:03.667426Z" modified="2025-04-22T19:36:03.667437Z" visited="2025-04-22T19:36:03.667427Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2025-04-22T19:36:03.667430Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

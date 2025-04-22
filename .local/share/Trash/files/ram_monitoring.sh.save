@@ -1,0 +1,15 @@
+#!/bin/bash
+THRESHOLD-80
+TOTAL=$(free -m | awk '/^Mem:/ {print $2}')
+USED=$(free -m | awk '/^Mem: {print $3}')
+if [[ -n "TOTAL" && -n "$USED" ]]; then
+RAM_PERCENTAGE=$(( USED * 100 / TOTAL ))
+echo "Current RAM usage: $RAM_PERCENTAGE%"
+if [ "RAM_PERCENTAGE" -ge THRESHOLD ]; then
+echo "ALERT: RAM usage is above threshold"
+fi
+else
+echo "error: Unable to determine RAM usages."
+fi
+sleep 5
+done

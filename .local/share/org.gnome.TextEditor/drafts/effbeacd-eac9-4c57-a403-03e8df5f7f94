@@ -1,0 +1,17 @@
+#!/bin/bash
+while true; do
+ram_usage=$(free | awk '/Mem:/ {printf("%.0f", ($3/$2)*100)}')
+if [[ "$ram_usage" =~ ^[0-9]+$ ]]; then
+echo "RAM Usage: $ram_usage%"
+if [ "$ram_usage" -gt 80 ]; then
+echo "High RAM usage detected: $ram_usage%"
+else
+echo "RAM usage is normal: $ram_usage%"
+fi
+else
+echo "Error: Unable to determine RAM usage."
+fi
+sleep 10
+done
+
+
